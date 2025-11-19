@@ -160,9 +160,9 @@ footer {
 }
 
 .participants-list {
-  list-style: disc;
-  margin-left: 18px;
-  padding-left: 6px;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .participant-item {
@@ -186,4 +186,18 @@ footer {
   font-weight: 700;
   font-size: 12px;
   border: 1px solid #cfd8ff;
+}
+
+.delete-participant {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  margin-left: auto;
+  padding: 4px;
+  line-height: 1;
+}
+
+.delete-participant:hover {
+  transform: scale(1.05);
 }
